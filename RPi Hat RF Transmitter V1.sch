@@ -2360,4 +2360,16 @@ Wire Wire Line
 	13550 1775 13550 2050
 Wire Wire Line
 	13375 2050 13550 2050
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5DC2EB13
+P 13650 3850
+F 0 "TP1" H 13708 3968 50  0000 L CNN
+F 1 "TestPoint" H 13708 3877 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork" H 13850 3850 50  0001 C CNN
+F 3 "~" H 13850 3850 50  0001 C CNN
+	1    13650 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 13650 3850
 $EndSCHEMATC
